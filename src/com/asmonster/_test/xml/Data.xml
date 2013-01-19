@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<myList>
+		<item>
+			<picture>1</picture>
+		</item>
+		<item>
+			<picture>2</picture>
+		</item>
+		<item>
+			<picture>3</picture>
+		</item>
+		<item>
+			<picture>4</picture>
+		</item>
+		<item>
+			<picture>5</picture>
+		</item>
+		<item>
+			<picture>6</picture>
+		</item>
+		<item>
+			<picture>7</picture>
+		</item>
+		<item>
+			<picture>8</picture>
+		</item>
+		<item>
+			<picture>9</picture>
+		</item>
+		<item>
+			<picture>10</picture>
+		</item>
+	</myList>
+</data>

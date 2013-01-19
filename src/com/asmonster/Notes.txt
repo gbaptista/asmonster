@@ -1,0 +1,32 @@
+﻿asMonster 1.8.5 to asMonster 1.8.7
+
+Mudanças e novidades desta versão:
+
+- O package asmonster  passa a ser parte do package com, ficando com.asmonster;
+
+- Nona estrutura de pastas/packages foi definida. Antes existiam as pastas: "asmonster", "caurina", "com", "gs" e "mx";
+- Agora, existe apenas a pasta "com", contendo as pastas "adobe", "asmonster" e "greensock";
+
+- Novo texto com licença e informações no início do código fonte forão resumidos;
+
+- A GreenSock Tweening Platform v11 foi definida como plataforma padrão de animações do projeto;
+- A classe Tweener (caurina.transitions.Tweener) não é mais utilizada;
+- Todas as animações foram refatoradas e, agora utilizam a TweenMax v11;
+
+- As classes database.UseData, effects.AnimateDataItems, interfaces.Box, interfaces.DragAndDrop, interfaces.ObjectAlign e utils.Debug deixam de usar Tweener e passam a utilizar TweenMax;
+
+- A classe utils.Debug foi refatorada, simplificada e os bugs existentes foram corrigidos.
+
+- Antes, para "iniciar" o asMonster, era utilizado o seguinte bloco de código:	
+	/*
+	* contextMenu = asMonster.AddCredits();
+	* Debug.stage = stage; Debug.active = true; Debug.StartDebug();
+	* asMonster.Help(); asMonster.GetVersion();			
+	* stage.scaleMode = StageScaleMode.NO_SCALE; stage.align = "TL";
+	*/
+- Agora, o método asMonster.Init foi criado e o código anterior se resume a:
+	/*
+	* contextMenu = asMonster.AddCredits(); asMonster.Init(stage, true);
+	*/
+
+- Bugs na classe interfaces.Box corrigidos;
